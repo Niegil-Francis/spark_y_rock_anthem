@@ -24,11 +24,24 @@ Contains code that pulls data from [rateyourmusic.com](https://rateyourmusic.com
 Contains code that takes the data pulled from [rateyourmusic.com](https://rateyourmusic.com/) and uses the artist and album name to get all tracks of the album and other features of the artist, album and track using the [Spotify API](https://developer.spotify.com/documentation/web-api).
 - [genius-scraper.ipynb](genius-scraper.ipynb) <br>
 This code iterates through the data pulled from [rateyourmusic.com](https://rateyourmusic.com/) and the [Spotify API](https://developer.spotify.com/documentation/web-api) to get the lyrics for each track. The lyrics are then appended to the data.<br><br>
+- [lyric-gen.ipynb](lyric-gen.ipynb) <br>
+Contains code that generates lyrics using gpt-2. The user can enter either album, artist or song name to generate lyrics of the song. This code loads the model from the folder models that needs to be downloaded from [here](https://drive.google.com/drive/folders/1_Xmrl37ft80cT5gZb2MTrwLuWE1DXgnO?usp=sharing). This code uses colab-pro and if you would like to run the gpt-2-medium model you would need colab-pro+.
+- [vagalume-scraper](vagalume-scraper.ipynb) <br>
+Contains code that scrapes lyrics of all artists and their albums from the [vagalume.br](https://www.vagalume.com.br/) website.
+- [song-list-scraper](song-list-scraper.ipynb) <br>
+Contains code that scrapes artist and their album names from the [song-list](https://www.song-list.net/) website.
+- [Spark-y-Rock-Anthem.pdf](Spark-y-Rock-Anthem.pdf) <br>
+Contains the final presentation as a pdf
+
 
 ## Folder Stucture
 
 - [data](data/) <br>
  Should be downloaded manually from this [link](https://drive.google.com/drive/folders/102J24s4C4UbUdeNW8NzfLwEh_J611ZG8?usp=share_link). Contains all the data pulled from each website.
+- [models](models/) <br>
+Should be downloaded manually from this [link](https://drive.google.com/drive/folders/1_Xmrl37ft80cT5gZb2MTrwLuWE1DXgnO?usp=sharing). Contains all the models used for lyric generation.
+- [results](results/) <br>
+Folder that contains some of the results that were added into the presentation.
 - [drivers](drivers/) <br>
 Contains chromium.exe drivers for scraping.
 - [not_used](not_used/) <br>
