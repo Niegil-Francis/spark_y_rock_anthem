@@ -27,6 +27,10 @@ This code iterates through the data pulled from [rateyourmusic.com](https://rate
 Contains code that generates lyrics using gpt-2. The user can enter either album, artist or song name to generate lyrics of the song. This code loads the model from the folder models that needs to be downloaded from [here](https://drive.google.com/drive/folders/1_Xmrl37ft80cT5gZb2MTrwLuWE1DXgnO?usp=sharing). This code uses colab-pro and if you would like to run the gpt-2-medium model you would need colab-pro+.
 - [song-search.ipynb](song-search.ipynb) <br>
 Contains code that searches for a song based on the lyrics. This code uses colab-pro with high ram. We have limited the search to 10 entries to make the code run quicker. This can be changed by changing the limit value while assigning raw_features within the code. The entire dataset can be included by commenting out the year condition and condition on the order while loading the data into spark.
+- [eda-dask.ipynb](eda-dask.ipynb) <br>
+Contains code that was used for EDA in Dask.
+- [eda-pyspark.ipynb](eda-pyspark.ipynb) <br>
+Contains code that was used for EDA in PySpark.
 - [vagalume-scraper](vagalume-scraper.ipynb) <br>
 Contains code that scrapes lyrics of all artists and their albums from the [vagalume.br](https://www.vagalume.com.br/) website.
 - [song-list-scraper](song-list-scraper.ipynb) <br>
