@@ -5,8 +5,7 @@
 This repository contains the final project of Big-Data CS-GY 6513 Spring 2023. The project is titled Spark-y Rock Anthem and contains the following:
 1) EDA of songs, aritists and albums across all genres for the years 2020-2023.
 2) Song Search using MinHashLSH to compare the user's search keywords to all the songs present in the data.
-3) Song classification into genres using MinHashLSH.
-4) Lyric generator to inspire the next generation of AI and Human combined music
+3) Lyric generator to inspire the next generation of music that combines AI with human creativity
 
 ### Contributers:
 - Khalid Ansari
@@ -15,7 +14,7 @@ This repository contains the final project of Big-Data CS-GY 6513 Spring 2023. T
 - Prajna Ravindra Nayak
 - Niegil Francis Muttath Joseph<br><br>
 
-## Code Description
+## File Description
 
 ***Note: None of the codes will work unless the data folder is added to the repo. The folder can be found [here](https://drive.google.com/drive/folders/102J24s4C4UbUdeNW8NzfLwEh_J611ZG8?usp=share_link). This folder contains all the data scraped/pulled from different websites.***
 - [rate-your-music-scraper.ipynb](rate-your-music-scraper.ipynb) <br>
@@ -32,9 +31,10 @@ Contains code that searches for a song based on the lyrics. This code uses colab
 Contains code that scrapes lyrics of all artists and their albums from the [vagalume.br](https://www.vagalume.com.br/) website.
 - [song-list-scraper](song-list-scraper.ipynb) <br>
 Contains code that scrapes artist and their album names from the [song-list](https://www.song-list.net/) website.
-- [Spark-y-Rock-Anthem.pdf](Spark-y-Rock-Anthem.pdf) <br>
-Contains the final presentation as a pdf <br><br>
-
+- [Presentation-Spark-y-Rock-Anthem.pdf](Presentation-Spark-y-Rock-Anthem.pdf) <br>
+Contains the final presentation as a pdf
+- [Project-Report-Spark-y-Rock-Anthem.pdf](Project-Report-Spark-y-Rock-Anthem.pdf) <br>
+Contains the final project report as a pdf <br><br>
 
 ## Folder Stucture
 
